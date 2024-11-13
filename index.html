@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background: bisque;
+            color: black;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: black;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        nav a:hover {
+            color: aqua;
+        }
+        
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            margin: 10px 0;
+        }
+        
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        
+        .project:hover {
+            transform: scale(1.05);
+        }
+        
+        .project-img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .project h3 {
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: black;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        tr:hover {
+            background-color: #ddd;
+        
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #4CAF50;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>   
+</head>
+<body>
+    <header>
+        <h1>Anirban Deb</h1>
+        <p><i>"Crafting digital solutions, one algorithm at a time."</i></p>
+        <nav>
+            <ul>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="certificates.html">Certificates</a></li>
+                <li><a href="technical skills.html">Technical Skills</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="image.jpg.png" alt="Profile Picture" class="profile-img">
+        <p>Hi! I'm a web developer with a passion for creating beautiful and functional websites. I enjoy coding and learning new technologies.</p>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Institutions</th>
+                    <th>Year of completion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><h3>Lovely Professional University</h3><br>
+                    <i>Computer Science and Engineering</i></td>
+                    <td>2024-2028</td>
+                </tr>
+                <tr>
+                    <td><h3>Umakanta Academy English Medium</h3><br>
+                    <i>12th with Science - Percentage: 94.60%</i></td>
+                    <td>2022-2024</td>
+                </tr>
+                <tr>
+                    <td><h3>Shishu Bihar Higher Secondary School</h3><br>
+                    <i>10th with Science - CGPA:9</i></td>
+                    <td>2012-2022</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3><u>Project 1</u></h3>
+            <p><strong>Fkart App</strong> | <i>MERN Stack, Responsive Web Design</i><br>Developed an e-commerce platform wherein users can buy numerous products such as electronics, clothing, and more.</p>
+
+        </div>
+        <div class="project">
+            <h3><u>Project 2</u></h3>
+            <p><strong>Project SearchEverywhere</strong> | <i>Python3, Linux, Grep, Open Office, Bash, MS Office</i><br>Developed an open-source Linux tool that allows users to search for specific information in multiple files of types including documents, presentations, spreadsheets, and text files</p>
+        </div>
+    </section>
+    <section>
+        <h2>Certificates</h2>
+        <p><strong>Hack-a-Throne 1.0</strong><br>AIESEC - <i>Certificate of participation</i></p>
+        <p><strong>Linux for Developers</strong><br>Coursera - <i>Certificate of completion</p>
+    </section>
+    <section>
+        <h2>Technical Skills</h2>
+        <p><strong>Languages:</strong> Python, HTML,CSS</p>
+        <p><strong>Skills:</strong> Data Structures and Algorithms, Problem-Solving, Responsive Web Design, Scripting in Python</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at: <a href="mailto:anirbandeb395@gmail.com">anirbandeb395@gmail.com</a></p>
+        <p>Linkedin: <a href="www.linkedin.com/in/anirbandeb2006">www.linkedin.com/in/anirbandeb2006</a></p>
+        <p>Github: <a href="https://github.com/Anirban-ui-wq">https://github.com/Anirban-ui-wq</a></p>
+        
+    </section>
+
+    <footer>
+        <p>I hope you enjoyed my website. Please visit again!</p>
+    </footer>
+</body>
+</html>
